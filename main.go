@@ -58,7 +58,7 @@ var (
 
 // 思考内容处理策略
 const (
-	THINK_TAGS_MODE = "strip" // strip: 去除<details>标签；think: 转为<think>标签；raw: 保留原样
+	THINK_TAGS_MODE = "raw" // strip: 去除<details>标签；think: 转为<think>标签；raw: 保留原样
 )
 
 // 伪装前端头部（来自抓包）
